@@ -1,3 +1,9 @@
+import Navbar from "@/components/Navbar";
+
 export default function Home() {
-  return <div className="text-3xl text-center mt-20">SharpCareer - Tech</div>;
+  return (
+    <main className="min-h-screen bg-black/[0.96] antialiased bg-grid-white/[0.02]">
+      <Navbar />
+    </main>
+  );
 }
