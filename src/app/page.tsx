@@ -1,4 +1,5 @@
 // import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 import HeroSection from "@/components/HeroSection";
 import Navbar from "@/components/Navbar";
 import ServiceSection from "@/components/ServiceSection";
@@ -14,6 +15,7 @@ export default function Home() {
       <ServiceSection />
       <WorkingProcess />
       <TrainignSection />
+      <Footer />
     </main>
   );
 }
