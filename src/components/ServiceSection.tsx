@@ -48,7 +48,7 @@ function ServiceSection() {
                 <div className="p-4 sm:p-6 flex flex-col items-center text-center flex-grow">
                   <Image
                     src={service.image}
-                    alt="jordans"
+                    alt="image"
                     height="400"
                     width="400"
                     className="w-full h-full object-cover rounded-md"
@@ -69,6 +69,16 @@ function ServiceSection() {
             </div>
           ))}
         </div>
+      </div>
+
+      <div className="mt-20 text-center">
+        <Link
+          href={"/all-courses"}
+          className="px-4 py-2 rounded border border-neutral-600 text-neutral-700
+           bg-white hover:bg-gray-100 transition duration-200"
+        >
+          View All Services
+        </Link>
       </div>
     </div>
   );
