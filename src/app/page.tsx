@@ -8,14 +8,16 @@ import WorkingProcess from "@/components/WorkingProcess";
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-black/[0.96] antialiased bg-grid-white/[0.02]">
-      {/* <Header /> */}
-      <Navbar />
-      <HeroSection />
-      <ServiceSection />
-      <WorkingProcess />
-      <TrainignSection />
-      <Footer />
-    </main>
+    <>
+      <main className="min-h-screen bg-black/[0.96] antialiased bg-grid-white/[0.02]">
+        {/* <Header /> */}
+        <Navbar />
+        <HeroSection />
+        <ServiceSection />
+        <WorkingProcess />
+        <TrainignSection />
+        <Footer />
+      </main>
+    </>
   );
 }
