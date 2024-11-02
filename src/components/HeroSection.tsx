@@ -3,6 +3,7 @@ import { BackgroundBeams } from "@/components/ui/background-beams";
 import Link from "next/link";
 import { Button } from "../components/ui/moving-border";
 import { Spotlight } from "./ui/Spotlight";
+import { Cover } from "@/components/ui/cover";
 
 function HeroSection() {
   return (
@@ -16,11 +17,11 @@ function HeroSection() {
           fill="white"
         />
         <h1
-          className="mt-20 md:mt-0 text-4xl md:text-5xl
-         font-bold bg-clip-text text-transparent bg-gradient-to-b
-          from-neutral-50 to-neutral-400"
+          className="text-4xl md:text-4xl lg:text-6xl font-semibold max-w-7xl mx-auto text-center 
+        mt-6 relative z-20 py-6 bg-clip-text text-transparent bg-gradient-to-b from-neutral-800
+         via-neutral-700 to-neutral-700 dark:from-neutral-800 dark:via-white dark:to-white"
         >
-          Sharpen your business online with SharpCareer
+          Sharpen your business online <br /> with <Cover>SharpCareer</Cover>
         </h1>
         <p className="mt-4 font-normal text-base md:text-lg text-neutral-300 max-w-lg mx-auto">
           Elevate your brand and boost sales with our cutting-edge design and
