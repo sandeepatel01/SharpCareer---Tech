@@ -2,6 +2,7 @@
 import HeroSection from "@/components/HeroSection";
 import Navbar from "@/components/Navbar";
 import ServiceSection from "@/components/ServiceSection";
+import TrainignSection from "@/components/TrainignSection";
 import WorkingProcess from "@/components/WorkingProcess";
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
       <HeroSection />
       <ServiceSection />
       <WorkingProcess />
+      <TrainignSection />
     </main>
   );
 }
