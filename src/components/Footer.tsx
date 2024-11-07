@@ -11,6 +11,8 @@ function Footer() {
               <Image
                 src="/assets/logo.png"
                 alt="Logo"
+                width={100}
+                height={100}
                 className="h-8 w-8 sm:h-10 sm:w-10 mr-2"
               />
               <p className="text-lg sm:text-2xl font-bold">SharpCareer</p>
