@@ -3,6 +3,8 @@ import React from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import Image from "next/image";
+import type { LinkProps } from "next/link";
+import type { PropsWithChildren } from "react";
 
 const transition = {
   type: "spring",
@@ -109,13 +111,15 @@ export const ProductItem = ({
   );
 };
 
-export const HoveredLink = ({ children, ...rest }: any) => {
+export const HoveredLink = ({
+  children,
+  ...rest
+}: PropsWithChildren<LinkProps>) => {
   return (
-    <Link
-      {...rest}
-      className="text-neutral-700 dark:text-neutral-200 hover:text-black "
-    >
-      {children}
+    <Link passHref {...rest}>
+      <a className="text-neutral-700 dark:text-neutral-200 hover:text-black ">
+        {children}
+      </a>
     </Link>
   );
 };

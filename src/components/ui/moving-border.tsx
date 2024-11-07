@@ -158,7 +158,7 @@ interface ButtonProps {
   duration?: number;
   gradientColors?: string; // New prop for gradient customization
   className?: string;
-  [key: string]: any;
+  [key: string]: unknown;
 }
 
 export function Button({
@@ -217,7 +217,7 @@ interface MovingBorderProps {
   duration?: number;
   rx?: string;
   ry?: string;
-  [key: string]: any;
+  [key: string]: unknown;
 }
 
 export const MovingBorder = ({
