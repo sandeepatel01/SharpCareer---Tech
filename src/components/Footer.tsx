@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 function Footer() {
   return (
@@ -7,7 +8,7 @@ function Footer() {
         <div className="">
           <Link href="/">
             <div className="flex items-center text-white  mb-2 ">
-              <img
+              <Image
                 src="/assets/logo.png"
                 alt="Logo"
                 className="h-8 w-8 sm:h-10 sm:w-10 mr-2"
